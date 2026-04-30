@@ -1,0 +1,65 @@
+ /* Center the card on the page */
+ body {
+     display: flex;
+     justify-content: center;
+     /* horizontal center */
+     align-items: center;
+     /* vertical center */
+     height: 100vh;
+     /* full screen height */
+     background-color: #f0f0f0;
+     font-family: Arial, sans-serif;
+ }
+
+ /* Profile card container */
+ .card {
+     background-color: white;
+     /* card background */
+     border: 2px solid #333;
+     /* border around card */
+     padding: 20px;
+     /* space inside the card */
+     width: 300px;
+     /* fixed width */
+     border-radius: 10px;
+     /* rounded corners */
+     text-align: center;
+     /* center text */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     /* subtle shadow */
+ }
+
+ /* Name styling */
+ .card h2 {
+     margin-bottom: 10px;
+     /* space below name */
+ }
+
+ /* Description styling */
+ .card p {
+     font-size: 14px;
+     margin-bottom: 20px;
+     /* space below description */
+     color: #555;
+ }
+
+ /* Button styling */
+ .card button {
+     background-color: #333;
+     /* button color */
+     color: white;
+     /* text color */
+     border: none;
+     /* remove default border */
+     padding: 10px 15px;
+     /* space inside button */
+     border-radius: 5px;
+     /* rounded edges */
+     cursor: pointer;
+     /* pointer on hover */
+ }
+
+ /* Button hover effect */
+ .card button:hover {
+     background-color: #555;
+ }

@@ -1,0 +1,104 @@
+/* ===== RESET & BASE STYLES ===== */
+* {
+    margin: 0;
+    /* remove default spacing */
+    padding: 0;
+    /* remove default spacing */
+    box-sizing: border-box;
+    /* include padding in width/height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    /* light background color */
+    color: #333;
+    /* default text color */
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    /* use Flexbox */
+    justify-content: space-between;
+    /* push items apart */
+    align-items: center;
+    /* vertically center items */
+    background: #1e293b;
+    /* dark background */
+    color: white;
+    padding: 15px 30px;
+    /* spacing inside navbar */
+}
+
+.nav-links {
+    display: flex;
+    /* horizontal layout */
+    gap: 20px;
+    /* space between links */
+}
+
+.nav-links a {
+    color: #cbd5f5;
+    text-decoration: none;
+    /* remove underline */
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: white;
+    /* hover effect */
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    display: flex;
+    /* Flexbox layout */
+    flex-direction: column;
+    /* stack items vertically */
+    justify-content: center;
+    /* center vertically */
+    align-items: center;
+    /* center horizontally */
+    text-align: center;
+    /* center text */
+    height: 80vh;
+    /* take most of screen height */
+    background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+    /* gradient color */
+    color: white;
+    padding: 20px;
+    /* spacing inside hero */
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    /* space below heading */
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    /* space below text */
+    max-width: 500px;
+    /* limit width for readability */
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    background: #111827;
+    /* button color */
+    color: white;
+    padding: 12px 20px;
+    /* spacing inside button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #374151;
+    /* hover effect */
+}
