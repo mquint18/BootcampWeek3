@@ -1,0 +1,58 @@
+.firstClass {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+
+}
+
+#firstId {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chartreuse;
+}
+
+#secondId {
+    color: indianred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: line-through;
+    text-align: right;
+}
+
+
+.secondClass {
+    border: 2px dashed rgb(186, 11, 31);
+    margin: 20px;
+    padding: 20px;
+    background-color: violet;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+#firstDiv {
+    display: flex;
+    justify-content: space-between;
+    border: 9px solid blueviolet;
+    background-color: bisque;
+    padding: 20px;
+    margin: 40px;
+
+}
+
+.insideDiv {
+    border: 4px dashed greenyellow;
+    background-color: brown;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blanchedalmond;
+}
+
+#secondDiv {
+    display: flex center;
+    border: 2px dotted silver;
+    padding: 15px;
+    margin: 35px;
+    color: hotpink;
+    font-size: larger;
+    background-color: black;
+
+}
